@@ -18,7 +18,7 @@
     height: 100vh;
     padding: 100px;
     gap: 30px;
-    position: relative;
+    /* position: relative; */
 }
 
 .title {
@@ -133,86 +133,126 @@
 .icon-container {
     display: flex;
     width: 70%;
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: rgba(39, 39, 39, 0.05);
     align-items: center;
     justify-content: center;
-    margin: 250px;
+    margin: 100px 250px 90px 250px;
 }
-.icon{
-    padding:50px;
+
+.icon {
+    padding: 40px;
 }
-.icon-img{
+
+.icon-img {
     width: 30%;
     height: 30%;
     padding: 30px 50px 0px;
 }
 
 /* sign-up section stlyes */
-.sign-up-container{
-    display:flex;
-    gap:20px;
+.sign-up-container {
+    display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
-    height:500px;
-    background-color: rgba(50, 47, 48, 0.13);
+    /* width: 100%; */
+    height: 60vh;
+    background-color: rgba(229, 84, 115, 0.05);
 
 }
-.sign-up-description{
-    padding-left:100px ;
+
+.sign-up-description {
+    padding-left: 100px;
     margin: 20px;
     text-align: center;
 }
-.title-color{
+
+.title-color {
     color: rgba(229, 84, 115, 1);
 }
-.sign-up-img{
+
+.sign-up-img {
     width: 210px;
     height: 300px;
     padding: 200px;
 
 }
-.all-insta-img{
-    display: flex;
-    gap:100px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+.instagram-container{
+    text-align: center;
+    padding: 50px;
 }
-.rec-img{
-    width: 10%;
-    height: 20%;
+.all-img {
+    display: flex;
+    gap:50px;
+    margin: 50px;
+    max-width: 100%;
+}
+
+.rec-img {
+    width: 50px;
+    height: 100px;
 }
 
 /* subscribe content styles */
 
-.subscribe-container{
+.subscribe-container {
     background-image: url('./Flower/Rectangle\ 9.png');
     width: 70%;
     height: 40vh;
-    /* background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    /* display: flex; */
     align-items: center;
-    margin: 200px;
-    
+    border-radius: 6px;
+    margin: 100px 250px 90px 250px;
+
 }
-.subscribe-heading{
+
+.subscribe-heading {
     text-align: center;
     padding: 40px 200px 0px 200px;
 }
 
 .input input[type="email"] {
-    margin: 0px 5px 50px 10px ;
+    margin: 0px 5px 50px 10px;
     padding: 12px 30px;
     color: #757575;
     border: none;
     border-radius: 2px;
     background: #FFF;
     width: 40%;
+}
+
+/* footer section styles */
+.footer {
+    background-color: #111010;
+    height: 40vh;
+    text-align: center;
+}
+
+.footer-desc {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 5px 0px 5px 0px;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 80px 100px 5px 50px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
 }
