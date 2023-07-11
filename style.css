@@ -51,7 +51,7 @@
 .btn-primary {
     background-color: rgba(229, 84, 115, 1);
     border-radius: 4px;
-    padding: 15px 35px;
+    padding: 10px 25px;
     border: none;
     color: white;
     font-weight: 700;
@@ -156,7 +156,7 @@
     justify-content: space-around;
     width: 100%;
     height:500px;
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(50, 47, 48, 0.13);
 
 }
 .sign-up-description{
@@ -172,4 +172,47 @@
     height: 300px;
     padding: 200px;
 
+}
+.all-insta-img{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.rec-img{
+    width: 10%;
+    height: 20%;
+}
+
+/* subscribe content styles */
+
+.subscribe-container{
+    background-image: url('./Flower/Rectangle\ 9.png');
+    width: 70%;
+    height: 40vh;
+    /* background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); */
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    margin: 200px;
+    
+}
+.subscribe-heading{
+    text-align: center;
+    padding: 40px 200px 0px 200px;
+}
+
+.input input[type="email"] {
+    margin: 0px 5px 50px 10px ;
+    padding: 12px 30px;
+    color: #757575;
+    border: none;
+    border-radius: 2px;
+    background: #FFF;
+    width: 40%;
 }
