@@ -186,7 +186,7 @@
     display: flex;
     gap:50px;
     margin: 50px;
-    max-width: 100%;
+    height: 60vh;
 }
 
 .rec-img {
@@ -197,7 +197,7 @@
 /* subscribe content styles */
 
 .subscribe-container {
-    background-image: url('./flower/Rectangle\ 9.png');
+    background-image: url('./Flower/Rectangle\ 9.png');
     width: 70%;
     height: 40vh;
     background-blend-mode: overlay;
